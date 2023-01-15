@@ -1,0 +1,66 @@
+.b{
+    background-image: url("background.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    
+    overflow-x: hidden;
+    position: absolute;
+    background-repeat: repeat-x;
+}
+
+.body{
+    margin: 0px;
+}
+
+.f{
+    position: absolute;
+    width: 100px;
+    margin-top: 410px;
+}
+
+.boy{
+    position: absolute;
+    width: 200px;
+    margin-top: 400px;
+}
+
+.score{
+    position: absolute;
+    font-size: 80px;
+    font-family: "Arial";
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.end{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+
+    font-family: "Arial";
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0.8;
+    visibility: hidden;
+}
+
+.btn{
+    height: 60px;
+    width: 520px;
+    background-color: orange;
+    font-family: "Arial";
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 25px;
+}
